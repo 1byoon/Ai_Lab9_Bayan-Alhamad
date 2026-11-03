@@ -1,0 +1,45 @@
+80 ?- consult(['c:/Users/bayoo/Downloads/AI_Lab08_files/boolean.pl']).
+true.
+
+81 ?- boolean_expression(true, true, Output).
+Output = true.
+
+82 ?- boolean_expression(true, false, Output).
+Output = false.
+
+83 ?- boolean_expression(false, true, Output).
+Output = false.
+
+84 ?- boolean_expression(false, false, Output).
+Output = true.
+
+85 ?- boolean_expression(true, true, Output).
+Output = true.
+
+86 ?- consult(['c:/Users/bayoo/Downloads/AI_Lab08_files/lab8_tasks.pl']).
+true.
+
+87 ?- sumlist([1,2,5,7], Sum).
+Sum = 15.
+
+88 ?- sumlist([], Sum).
+Sum = 0.
+
+89 ?- total_average.
+Enter the first number: 10.
+Enter the second number: |    20.
+Enter the third number: |    30.
+Total = 60
+Average = 20
+true.
+
+90 ?- consult(['c:/Users/bayoo/Downloads/AI_Lab08_files/lab8_tasks.pl']).
+true.
+
+91 ?- total_average.
+Enter the first number: 1.
+Enter the second number: |    2.
+Enter the third number: |    2.
+Total = 5
+Average = 1.6666666666666667
+true.
